@@ -69,11 +69,15 @@
  
  
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Time()">
-Click Me.</button>
+<p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
 
-<p id="demo"></p>
+<button onclick="setTimeout(myFunction, 3000);">Try it</button>
+
+<script>
+function myFunction() {
+    alert('Hello');
+}
+</script>
 <div class="w3-white" id="about">
  
   <a><i class="fa fa-instagram w3-hover-opacity"></i>
